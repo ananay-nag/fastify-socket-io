@@ -1,0 +1,21 @@
+# Tests
+test/
+coverage/
+.nyc_output/
+lib/
+
+# Examples
+examples/
+web-example/
+
+# GitHub & IDE
+.github/
+.vscode/
+
+# Configs & Tooling
+tsconfig.json
+
+# Logs & Dev Artifacts
+*.log
+proposed_features.txt
+.gemini/
