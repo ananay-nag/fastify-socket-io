@@ -58,7 +58,7 @@
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1",
     "standard": "^17.1.2",
-    "tsup": "^8.5.1",
+    "tsup": "^6.5.0",
     "typescript": "^5.8.3"
   }
 }
