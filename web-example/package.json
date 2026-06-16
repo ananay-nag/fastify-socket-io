@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@ananay-nag/fastify-socket-io": "file:../ananay-nag-fastify-socket-io-1.0.0.tgz",
+    "@ananay-nag/fastify-socket-io": "^1.0.0",
     "dotenv": "^17.4.2",
     "fastify": "^5.0.0",
     "socket.io": "^4.8.0"
