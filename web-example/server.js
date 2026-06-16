@@ -351,10 +351,12 @@ fastify.ready(err => {
   })
 })
 
-fastify.listen({ port: 3000 }, (err) => {
+const port = process.env.PORT || 3000;
+
+fastify.listen({ port: port, host: '0.0.0.0' }, (err) => {
   if (err) {
     fastify.log.error(err)
     process.exit(1)
   }
-  fastify.log.info('Web app available at http://localhost:3000')
+  fastify.log.info(`Web app available on port ${port}`)
 })
