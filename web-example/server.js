@@ -179,7 +179,7 @@ const html = `
     <!-- Login Section -->
     <div id="login-section" class="form-group">
       <input type="text" id="nameInput" placeholder="Your Name (max 20 chars)" autocomplete="off" />
-      <input type="password" id="codeInput" placeholder="Secret Code" autocomplete="off" />
+      <input type="password" id="codeInput" placeholder="Secret Code (abc@123)" autocomplete="off" />
       <button id="joinBtn">Join Chat</button>
       <div id="loginError" class="error-msg"></div>
     </div>
